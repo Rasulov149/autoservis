@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+
+
+.container {
+  display: flex;
+  padding: 10px;
+  border: none;
+  min-height: 120px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  padding: 5px;
+  font-size: 14px;
+  border: 1px dashed black;
+}
+
+.red { background-color: #ff0000; margin-right: 5px; }
+.green { background-color: #008000; }
+
+.target-rel {
+  position: relative;
+  top: 30px;
+  left: 20px; 
+  z-index: 10;
+}
+
+.absolute-layout {
+  position: relative; 
+}
+
+.target-abs {
+  position: absolute;
+  top: 20px;  
+  left: 20px; 
+  z-index: 10;
+}
